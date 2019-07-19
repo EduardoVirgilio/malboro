@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body, html{
+  overflow: hidden;
+  height: 100vh;
+}
+
+form * {
+  -webkit-appearance: none;
+   -moz-appearance:    none;
+   appearance:         none;
+}
+
+.font-light {
+  font-family: 'Trade Gothic LT Std';
+  font-weight: 300;
+  font-style: normal;
+}
+.font-bold{
+  font-family: 'Trade Gothic LT Std';
+  font-weight: bold;
+  font-style: italic;
+}
+h1.font-bold{
+  text-transform: uppercase;
+}
+h2.font-bold{
+  font-size: 1em;
+  text-align: left;
+  text-transform: uppercase;
+  width: 100%;
+
+}
